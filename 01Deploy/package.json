@@ -1,0 +1,19 @@
+{
+  "name": "deploy_code",
+  "version": "1.0.0",
+  "description": "deploying first code backend",
+  "keywords": [
+    "node",
+    "code"
+  ],
+  "license": "ISC",
+  "author": "simba",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
