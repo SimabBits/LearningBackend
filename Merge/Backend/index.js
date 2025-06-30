@@ -1,7 +1,9 @@
 import express from "express";
 const app = express();
 const port = process.env.PORT || 3000;
-app.get("/home", (req, res) => {
+
+
+app.get("/api/joke", (req, res) => {
   const jokes = [
     {
       id: 1,
