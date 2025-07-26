@@ -1,6 +1,6 @@
 import mongoose from 'mongoose'
 
-const orderItemSchema = new mongoose({
+const orderItemSchema = new mongoose.Schema({
   productId:{
     type: mongoose.Schema.Types.ObjectId,
     ref: "product",
